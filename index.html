@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bolos decorados personalizados feitos com carinho para aniversários, casamentos, comemorações e momentos especiais.">
+  <title>Maria Bolos Decorados | Bolos Personalizados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo" aria-label="Maria Bolos Decorados - Início">
+        <img src="logo.jpeg" alt="Maria Bolos Decorados" class="logo-img" width="56" height="56">
+        <span class="logo-text">Maria <span>Bolos Decorados</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#galeria" class="nav-link">Bolos</a></li>
+          <li><a href="#precos" class="nav-link">Preços</a></li>
+          <li><a href="#como-pedir" class="nav-link">Como pedir</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero-decor" aria-hidden="true">
+        <span class="decor decor-1"></span>
+        <span class="decor decor-2"></span>
+        <span class="decor decor-3"></span>
+        <span class="decor decor-4"></span>
+        <span class="decor decor-5"></span>
+      </div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Momentos especiais merecem um bolo inesquecível</h1>
+        <p class="hero-subtitle">Bolos decorados feitos com carinho, criatividade e aquele toque especial da Maria.</p>
+        <div class="hero-buttons">
+          <a href="#galeria" class="btn btn-primary">Ver nossos bolos</a>
+          <a href="#contato" class="btn btn-secondary">Fazer um pedido</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section sobre" id="sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-content reveal">
+            <span class="section-label">Sobre a Maria</span>
+            <h2 class="section-title">Cada bolo conta uma história</h2>
+            <p class="sobre-text">
+              Na Maria Bolos Decorados, cada criação é preparada com carinho e atenção aos detalhes. A ideia é transformar momentos especiais em memórias ainda mais doces, criando bolos para aniversários, casamentos, comemorações e todos aqueles dias que merecem ser celebrados.
+            </p>
+            <ul class="diferenciais">
+              <li>
+                <span class="diferencial-icon" aria-hidden="true">♥</span>
+                <span>Feito com carinho</span>
+              </li>
+              <li>
+                <span class="diferencial-icon" aria-hidden="true">✦</span>
+                <span>Bolos personalizados</span>
+              </li>
+              <li>
+                <span class="diferencial-icon" aria-hidden="true">★</span>
+                <span>Ingredientes selecionados</span>
+              </li>
+              <li>
+                <span class="diferencial-icon" aria-hidden="true">◉</span>
+                <span>Cada detalhe pensado para você</span>
+              </li>
+            </ul>
+          </div>
+          <div class="sobre-visual reveal" aria-hidden="true">
+            <div class="sobre-card">
+              <div class="cake-illustration">
+                <div class="cake-tier cake-top"></div>
+                <div class="cake-tier cake-middle"></div>
+                <div class="cake-tier cake-bottom"></div>
+                <div class="cake-candle"></div>
+              </div>
+              <p class="sobre-card-text">Arte em cada detalhe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="section destaques" id="destaques">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Nossos diferenciais</span>
+          <h2 class="section-title">Por que escolher a Maria?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 8c-2 0-4 2-4 5v2h8v-2c0-3-2-5-4-5z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 18h24v6c0 8-5 14-12 14s-12-6-12-14v-6z" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 24h16M16 30h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Personalizados</h3>
+            <p class="card-text">Cada bolo é único, pensado especialmente para o seu momento e o seu gosto.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="2"/>
+                <path d="M24 14v10l6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Todas as ocasiões</h3>
+            <p class="card-text">Aniversários, casamentos, formaturas e qualquer data que mereça ser celebrada.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 32l6-12 6 8 6-16 6 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 36h32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Decoração artesanal</h3>
+            <p class="card-text">Detalhes feitos à mão, com delicadeza e o toque especial de quem ama o que faz.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="14" width="28" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 14V10a2 2 0 012-2h12a2 2 0 012 2v4" stroke="currentColor" stroke-width="2"/>
+                <path d="M18 24h12M18 30h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Feitos sob encomenda</h3>
+            <p class="card-text">Você escolhe sabor, tamanho e estilo. Nós preparamos com carinho e pontualidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="section galeria" id="galeria">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Nossos bolos</span>
+          <h2 class="section-title">Galeria de criações</h2>
+          <p class="section-desc">Inspirações para o seu próximo momento especial. Clique nas fotos para ampliar.</p>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Preenchido via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Preços / Cardápio -->
+    <section class="section precos" id="precos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Cardápio 2026</span>
+          <h2 class="section-title">Tabela de preços</h2>
+          <p class="section-desc">Todos os bolos são feitos com <strong>duas camadas de recheio</strong>.</p>
+        </div>
+
+        <div class="precos-layout">
+          <!-- Sabores -->
+          <div class="precos-col reveal">
+            <div class="precos-card">
+              <h3 class="precos-card-title">Sabores — Mousse</h3>
+              <ul class="precos-list">
+                <li>Abacaxi</li>
+                <li>Chocolate</li>
+                <li>Chocolate branco</li>
+                <li>Coco</li>
+                <li>Limão</li>
+                <li>Maracujá</li>
+                <li>Morango</li>
+                <li>Pêssego</li>
+              </ul>
+            </div>
+
+            <div class="precos-card">
+              <h3 class="precos-card-title">Sabores diversos</h3>
+              <ul class="precos-list">
+                <li>Café</li>
+                <li>KitKat</li>
+                <li>Flocos</li>
+                <li>Ninho</li>
+                <li>Leite condensado abacaxi/morango</li>
+                <li>Doce de leite abacaxi/ameixa/coco/morango</li>
+                <li>Brigadeiro</li>
+                <li>Beijinho</li>
+                <li>Prestígio</li>
+                <li>Brigadeiro com morango</li>
+                <li>Sonho de valsa</li>
+                <li>Bis</li>
+                <li>Danete</li>
+                <li>Mousse aos dois chocolates</li>
+                <li>Chantilly com morango</li>
+                <li>Creme branco abacaxi/morango</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Valores bolos -->
+          <div class="precos-col reveal">
+            <div class="precos-card precos-valores">
+              <h3 class="precos-card-title">Valores dos bolos</h3>
+              <p class="precos-note">Tamanhos: P · M · G</p>
+
+              <div class="valor-item">
+                <h4>Bis na lateral</h4>
+                <p>P R$ 165 · M R$ 180 · G R$ 205</p>
+              </div>
+              <div class="valor-item">
+                <h4>Floresta negra ou branca</h4>
+                <p>P R$ 160 · M R$ 185 · G R$ 195</p>
+              </div>
+              <div class="valor-item">
+                <h4>Bolo com biju na lateral</h4>
+                <p>P R$ 160 · M R$ 175 · G R$ 195</p>
+              </div>
+              <div class="valor-item valor-destaque">
+                <h4>Valores (PIX e dinheiro)</h4>
+                <p>P R$ 145 · M R$ 160 · G R$ 175</p>
+              </div>
+              <div class="valor-item">
+                <h4>Cartão</h4>
+                <p>P R$ 150 · M R$ 165 · G R$ 180</p>
+              </div>
+              <div class="valor-item valor-kitkat">
+                <h4>Bolo com KitKat na lateral e redondo</h4>
+                <p>P R$ 220 · M R$ 230 · G R$ 260</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Docinhos + Adicionais + PIX -->
+          <div class="precos-col reveal">
+            <div class="precos-card">
+              <h3 class="precos-card-title">Docinhos tradicionais</h3>
+              <p class="precos-cento">R$ 80,00 o cento</p>
+              <ul class="precos-list">
+                <li>Brigadeiro</li>
+                <li>Beijinho</li>
+                <li>Casadinho</li>
+                <li>Brigadeiro branco</li>
+                <li>Brigadeiro de paçoca</li>
+                <li>Brigadeiro de palha italiana</li>
+                <li>Bicho de pé</li>
+                <li>Cajuzinho</li>
+              </ul>
+            </div>
+
+            <div class="precos-card">
+              <h3 class="precos-card-title">Adicionais</h3>
+              <ul class="precos-list adicionais-list">
+                <li><span>Caixa para transporte do bolo</span> <strong>R$ 10,00</strong> <em>(pedir com antecedência)</em></li>
+                <li><span>Aplicação do papel arroz</span> <strong>R$ 5,00</strong> <em>(pedir com antecedência)</em></li>
+                <li><span>Cobertura de brigadeiro ou ganache</span> <strong>R$ 10,00</strong></li>
+                <li><span>Recheio trufado</span> <strong>R$ 5,00</strong></li>
+                <li><span>Cobertura de chantilly com raspa</span> <strong>R$ 5,00</strong></li>
+              </ul>
+            </div>
+
+            <div class="precos-card pix-card">
+              <h3 class="precos-card-title">PIX</h3>
+              <img src="qr-pix.png" alt="QR Code PIX - Maria José dos Santos" class="pix-qr" width="200" height="200" loading="lazy">
+              <p class="pix-nome"><strong>Maria José dos Santos</strong></p>
+              <p class="pix-chave">Chave: <span id="pix-key">63331675000133</span></p>
+              <button type="button" class="btn btn-secondary btn-sm" id="btn-copy-pix">Copiar chave PIX</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como pedir -->
+    <section class="section como-pedir" id="como-pedir">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Encomenda</span>
+          <h2 class="section-title">Como pedir o seu bolo</h2>
+          <p class="section-desc">Um processo simples e acolhedor, do primeiro contato até a entrega.</p>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Escolha seu bolo</h3>
+            <p class="step-text">Veja algumas inspirações na nossa galeria e imagine o estilo que combina com você.</p>
+          </article>
+          <article class="step reveal">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Entre em contato</h3>
+            <p class="step-text">Conte para a Maria como você imagina o seu bolo — pelo WhatsApp é mais fácil.</p>
+          </article>
+          <article class="step reveal">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Combine os detalhes</h3>
+            <p class="step-text">Definam sabor, tamanho, decoração, data e demais detalhes juntos.</p>
+          </article>
+          <article class="step reveal">
+            <div class="step-number">4</div>
+            <h3 class="step-title">Receba seu bolo</h3>
+            <p class="step-text">Seu bolo será preparado com carinho para deixar seu momento ainda mais especial.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ocasiões -->
+    <section class="section ocasioes" id="ocasioes">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Momentos</span>
+          <h2 class="section-title">Bolos para todas as ocasiões</h2>
+        </div>
+        <div class="ocasioes-grid">
+          <article class="ocasiao-card reveal">
+            <span class="ocasiao-emoji" aria-hidden="true">🎂</span>
+            <h3>Aniversários</h3>
+          </article>
+          <article class="ocasiao-card reveal">
+            <span class="ocasiao-emoji" aria-hidden="true">💍</span>
+            <h3>Casamentos</h3>
+          </article>
+          <article class="ocasiao-card reveal">
+            <span class="ocasiao-emoji" aria-hidden="true">👶</span>
+            <h3>Chá de bebê</h3>
+          </article>
+          <article class="ocasiao-card reveal">
+            <span class="ocasiao-emoji" aria-hidden="true">🎓</span>
+            <h3>Formaturas</h3>
+          </article>
+          <article class="ocasiao-card reveal">
+            <span class="ocasiao-emoji" aria-hidden="true">❤️</span>
+            <h3>Datas especiais</h3>
+          </article>
+          <article class="ocasiao-card reveal">
+            <span class="ocasiao-emoji" aria-hidden="true">✨</span>
+            <h3>Comemorações</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Pedido -->
+    <section class="cta-pedido" id="cta-pedido">
+      <div class="container cta-content reveal">
+        <h2 class="cta-title">Vamos criar um bolo especial para o seu momento?</h2>
+        <p class="cta-text">Conte para a Maria o que você está imaginando e vamos transformar sua ideia em um bolo lindo e delicioso.</p>
+        <a href="#" class="btn btn-cta" id="btn-whatsapp-cta" target="_blank" rel="noopener noreferrer">Quero fazer meu pedido</a>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contato" id="contato">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Fale conosco</span>
+          <h2 class="section-title">Contato</h2>
+          <p class="section-desc">Estou pronta para ouvir sua ideia e preparar o bolo perfeito.</p>
+        </div>
+        <div class="contato-grid">
+          <div class="contato-info reveal">
+            <div class="contato-item">
+              <div class="contato-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+              </div>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>(12) 99252-9820</p>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1.5" fill="currentColor"/></svg>
+              </div>
+              <div>
+                <h3>Instagram</h3>
+                <p>@maria.bolosconfeitaria</p>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h3>Região</h3>
+                <p>Caçapava-SP</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary btn-whatsapp" id="btn-whatsapp" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+          </div>
+          <div class="contato-instagram reveal">
+            <div class="instagram-card">
+              <h3>Acompanhe nossas criações</h3>
+              <p>Veja novidades, bolos recentes e inspirações no nosso Instagram.</p>
+              <a href="https://www.instagram.com/maria.bolosconfeitaria/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" id="btn-instagram">Seguir no Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo footer-logo">
+          <img src="logo.jpeg" alt="" class="logo-img" width="48" height="48">
+          <span class="logo-text">Maria <span>Bolos Decorados</span></span>
+        </a>
+        <p class="footer-tagline">Bolos feitos para adoçar momentos especiais.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Bolos</a>
+        <a href="#precos">Preços</a>
+        <a href="#como-pedir">Como pedir</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <p class="footer-copy">© 2026 Maria Bolos Decorados. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada do bolo" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Imagem anterior">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightbox-img" class="lightbox-img">
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Próxima imagem">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
